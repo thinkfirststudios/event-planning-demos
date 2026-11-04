@@ -5,171 +5,136 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Book a consultation · Quillon &amp; Crane (fictional demo)</title>
-<meta name="description" content="Fictional demo: the consultation enquiry, with the deposit disclosed before you submit.">
+<meta name="description" content="Book a free 45-minute consultation. Fictional demo; the form sends nothing.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&amp;family=Marcellus&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&amp;family=Marcellus&amp;display=swap">
 <link rel="stylesheet" href="styles.css">
-<!-- FICTIONAL DEMO. Quillon & Crane does not exist. No tracking, no analytics, no chat widget, no structured review data. -->
-<!-- [VIDEO MUSIC RIGHTS — CONFIRM BEFORE ANY REEL IS PUBLISHED]: no video or audio is used anywhere on this site. A reel needs synchronisation and master rights; a venue's performance licence does not cover a website. -->
 </head>
 <body>
+<p class="demo-mark">DEMO — ThinkFirst Studios · [Your name here]</p>
 <a class="skip" href="#main">Skip to content</a>
-<div class="demo-strip" aria-hidden="true"></div>
-<p class="demo-marker">DEMO — ThinkFirst Studios · [Your name here]</p>
-
-<div class="utility">
-  <div class="utility__in">
-    <p class="utility__left">Availability as at <span class="ph">[AVAILABILITY AS AT — CONFIRM DATE]</span></p>
-    <p class="utility__mid"><a href="index.html" class="utility__mark">Quillon &amp; Crane</a><span>Full planning · Partial planning · Month-of coordination</span></p>
-    <p class="utility__right"><a href="contact.html#phone"><span class="ph">[PHONE — PLACEHOLDER]</span></a></p>
+<div class="frame">
+<header class="ubar">
+  <div class="ubar__in">
+    <div class="ubar__side"><p>Planning a wedding?</p><a href="availability.html">Check a date</a></div>
+    <div class="ubar__mid">
+      <a class="wordmark" href="index.html" aria-label="Quillon and Crane, home">QUILLON &amp; CRANE</a>
+      <p class="ubar__services">Full planning · Partial planning · Month-of coordination</p>
+    </div>
+    <div class="ubar__side"><p>Already booked a venue?</p><a href="packages.html#partial">See partial planning</a></div>
   </div>
-</div>
-
-<header class="site-header" data-header>
-  <div class="site-header__in">
-    <a class="wordmark" href="index.html" aria-label="Quillon and Crane, home">Quillon <span aria-hidden="true">&amp;</span> Crane</a>
-    <nav class="nav" aria-label="Main">
-      <ul><li><a href="availability.html">Availability</a></li>
-<li><a href="packages.html">Packages</a></li>
-<li><a href="gallery.html">Plates</a></li>
-<li><a href="process.html">Process</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="contact.html">Contact</a></li></ul>
-    </nav>
-    <a class="btn btn--primary site-header__cta" href="enquire.html">Book a consultation</a>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
-      <span class="menu-btn__bars" aria-hidden="true"></span><span class="menu-btn__txt">Menu</span>
-    </button>
-  </div>
+  <div class="ubar__mobile"><a href="availability.html">Check a date</a><a href="packages.html#partial">Partial planning</a></div>
 </header>
-
-<div class="menu" id="menu" hidden data-menu>
-  <div class="menu__top">
-    <span class="wordmark">Quillon &amp; Crane</span>
-    <button class="menu__close" type="button" data-menu-close>Close</button>
-  </div>
-  <nav aria-label="Mobile">
-    <ul class="menu__list">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="availability.html">Availability</a></li>
-<li><a href="packages.html">Packages</a></li>
-<li><a href="gallery.html">Plates</a></li>
-<li><a href="process.html">Process</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="contact.html">Contact</a></li>
-      <li><a href="enquire.html">Book a consultation</a></li>
+<nav class="nav" data-nav aria-label="Main">
+  <div class="nav__in">
+    <ul class="social">
+      <li><a href="gallery.html" aria-label="Photographs (gallery)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></svg></a></li>
+      <li><a href="contact.html#studio" aria-label="Find the studio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-6.5-6.1-6.5-11A6.5 6.5 0 0 1 18.5 10c0 4.9-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg></a></li>
+      <li><a href="mailto:hello@quillonandcrane.example" aria-label="Email the studio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg></a></li>
     </ul>
-  </nav>
-  <a class="btn btn--primary menu__pin" href="availability.html">Check a date</a>
-</div>
-
+    <button class="nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <ul class="nav__links" id="navlinks"><li><a href="packages.html">Packages</a></li><li><a href="availability.html">Availability</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="process.html">Process</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul>
+    <p class="nav__cta" style="margin:0"><a href="enquire.html">Enquire</a></p>
+  </div>
+</nav>
 <main id="main">
-<section class="band band--dark page-head">
-  <div class="wrap">
-    <div class="lockup lockup--left"><p class="eyebrow">Book a consultation</p><h1 class="lockup__h" id="top">Tell us the date, the guest count and the budget</h1></div>
-    <p class="page-head__p"><span class="ph">[PLACEHOLDER: 2–3 sentences — client to supply]</span></p>
+<section class="band band--blush hero hero--pair" data-hero>
+  <div class="hero__grid">
+    <div class="hero__text">
+      <p class="crumbs"><a href="index.html">Home</a> / Enquire</p>
+      <h1 class="h-xl">Book a consultation</h1>
+      <span class="sub">Free · 45 minutes · video or studio</span>
+      <p class="lede">Tell us your date, your rough numbers and your budget range. We'll reply within two working days with consultation times.</p>
+      <div class="actions"><a class="btn btn--outline" href="#enquire">Go to the form</a><a class="link-arrow" href="availability.html">Check a date first →</a></div>
+      
+    </div>
+    <div class="pair">
+      <figure class="ph r34 pair__rear"><div class="ph__media"><img src="assets/img/hero-b-600.webp" srcset="assets/img/hero-b-600.webp 600w, assets/img/hero-b-1200.webp 1200w" sizes="(min-width: 900px) 34vw, 75vw" width="1200" height="1600" alt="The end of a table laid with a white cloth, candlesticks and glassware, in a dark room lit by wall sconces" fetchpriority="high" decoding="async"></div><figcaption class="cap"><span class="cap__t">Table end, wall sconces</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+      <figure class="ph r32 pair__front"><div class="ph__media"><img src="assets/img/plate-02-600.webp" srcset="assets/img/plate-02-600.webp 600w, assets/img/plate-02-1200.webp 1200w" sizes="(min-width: 900px) 24vw, 55vw" width="1200" height="800" alt="Two blank white place cards beside a stoneware plate holding a single sprig of greenery" fetchpriority="high" decoding="async"></div><figcaption class="cap"><span class="cap__t">Blank place cards</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+    </div>
   </div>
 </section>
-<section class="band band--tissue" aria-labelledby="cf-h">
-  <div class="wrap enquire-inline">
-    <div class="enquire-inline__intro">
-      <h2 class="side-h" id="cf-h">The consultation</h2>
-      <dl class="facts">
-        <div><dt>Format</dt><dd><span class="ph">[CONSULTATION FORMAT — CONFIRM]</span></dd></div>
-        <div><dt>Length</dt><dd><span class="ph">[CONSULTATION LENGTH — CONFIRM]</span></dd></div>
-        <div><dt>Is it free?</dt><dd><span class="ph">[IS IT FREE? — CONFIRM]</span></dd></div>
-        <div><dt>What to bring</dt><dd><span class="ph">[WHAT TO BRING — CONFIRM]</span></dd></div>
-      </dl>
-      <p>Not sure of the date yet? <a href="availability.html">Check availability first</a>.</p>
+<section class="band band--light after-pair" id="enquire">
+  <div class="two two--wide">
+    <div>
+      <span class="eyebrow">The enquiry</span>
+      <h2 class="h-l">Your wedding</h2>
+      <form class="form form--2" data-enquiry novalidate>
+        <div class="field"><label for="e-name">Your name</label><input id="e-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="e-email">Email</label><input id="e-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="e-phone">Phone <span class="opt">(optional)</span></label><input id="e-phone" name="phone" type="tel" autocomplete="tel"></div>
+        <div class="field"><label for="e-partner">Partner's name <span class="opt">(optional)</span></label><input id="e-partner" name="partner"></div>
+        <div class="field"><label for="e-date">Wedding date <span class="opt">(if you have one)</span></label><input id="e-date" name="date" type="date"></div>
+        <div class="field"><label for="e-month">Or a month</label><select id="e-month" name="month"><option value="">Not sure yet</option><optgroup label="2027"><option value="2027-01">January 2027 (Open)</option><option value="2027-02">February 2027 (Open)</option><option value="2027-03">March 2027 (Open)</option><option value="2027-04">April 2027 (Limited)</option><option value="2027-05">May 2027 (Closed)</option><option value="2027-06">June 2027 (Closed)</option><option value="2027-07">July 2027 (Limited)</option><option value="2027-08">August 2027 (Held)</option><option value="2027-09">September 2027 (Closed)</option><option value="2027-10">October 2027 (Limited)</option><option value="2027-11">November 2027 (Open)</option><option value="2027-12">December 2027 (Open)</option></optgroup><optgroup label="2028"><option value="2028-01">January 2028 (Open)</option><option value="2028-02">February 2028 (Open)</option><option value="2028-03">March 2028 (Open)</option><option value="2028-04">April 2028 (Open)</option><option value="2028-05">May 2028 (Limited)</option><option value="2028-06">June 2028 (Limited)</option><option value="2028-07">July 2028 (Open)</option><option value="2028-08">August 2028 (Open)</option><option value="2028-09">September 2028 (Held)</option><option value="2028-10">October 2028 (Open)</option><option value="2028-11">November 2028 (Open)</option><option value="2028-12">December 2028 (Open)</option></optgroup></select></div>
+        <div class="field"><label for="e-guests">Guest count</label><select id="e-guests" name="guests" required><option value="">Choose a range</option><option>Under 50</option><option>50 to 90</option><option>90 to 140</option><option>140 to 180</option><option>Over 180</option></select></div>
+        <div class="field"><label for="e-budget">Overall budget</label><select id="e-budget" name="budget" required><option value="">Choose a range</option><option>Under $25,000</option><option>$25,000 to $45,000</option><option>$45,000 to $75,000</option><option>Over $75,000</option><option>Not sure yet</option></select></div>
+        <div class="field"><label for="e-venue">Venue <span class="opt">(if booked)</span></label><input id="e-venue" name="venue"></div>
+        <div class="field"><label for="e-pkg">Package of interest</label><select id="e-pkg" name="package"><option value="">Not sure yet</option><option value="full">Full planning (from $9,800)</option><option value="partial">Partial planning (from $5,400)</option><option value="month-of">Month-of coordination (from $2,450)</option></select></div>
+        <div class="field full"><label for="e-msg">Anything else <span class="opt">(optional)</span></label><textarea id="e-msg" name="message"></textarea></div>
+        <div class="full">
+          <div class="deposit-note"><p style="margin:0"><strong>A deposit applies.</strong> A deposit is due when you book, to hold your date. The amount is set out in your proposal, and the terms that govern it are below.</p></div>
+<div class="slot" role="note" aria-label="Deposit terms"><p class="k">[DEPOSIT, CANCELLATION AND POSTPONEMENT TERMS — CLIENT'S COUNSEL TO SUPPLY]</p></div>
+          <label class="check"><input type="checkbox" name="notes"> <span>Send me the studio's seasonal availability note, about four times a year (optional).</span></label>
+          <p class="datause mt">We use these details only to reply to your enquiry and prepare for the consultation. They are not shared with suppliers or anyone else without asking you first. See the <a href="privacy.html">privacy notice</a>.</p>
+          <p class="form__err" data-form-err aria-live="polite"></p>
+          <button class="btn btn--primary" type="submit">Book a consultation</button>
+        </div>
+      </form>
+      <div class="success" data-success hidden tabindex="-1">
+        <h3 class="h-m">Thank you</h3>
+        <p>Imogen or Theo will reply within two working days with two or three consultation times. If your month changes state in the meantime, we'll say so.</p>
+        <p class="muted" style="margin:0">(Demo: nothing was sent.)</p>
+      </div>
     </div>
-    <div class="enquire-inline__form"><form class="form" id="enq-form" data-enquiry novalidate>
-  <fieldset>
-    <legend class="form__legend">About you</legend>
-    <div class="field"><label for="enq-name">Your name</label><input id="enq-name" name="name" type="text" autocomplete="name" required></div>
-    <div class="field"><label for="enq-email">Email</label><input id="enq-email" name="email" type="email" autocomplete="email" required></div>
-    <div class="field"><label for="enq-phone">Phone <span class="opt">(optional)</span></label><input id="enq-phone" name="phone" type="tel" autocomplete="tel"></div>
-  </fieldset>
-  <fieldset>
-    <legend class="form__legend">The wedding</legend>
-    <div class="field-row">
-      <div class="field"><label for="enq-date">Wedding date, if you have one</label><input id="enq-date" name="date" type="date" aria-describedby="enq-date-hint"></div>
-      <div class="field"><label for="enq-month">Or a month, if undecided</label><select id="enq-month" name="month" data-month-select aria-describedby="enq-date-hint"><option value="">Undecided, or I have an exact date</option><optgroup label="[YEAR — CONFIRM]"><option value="y0-jan">January [YEAR — CONFIRM]</option><option value="y0-feb">February [YEAR — CONFIRM]</option><option value="y0-mar">March [YEAR — CONFIRM]</option><option value="y0-apr">April [YEAR — CONFIRM]</option><option value="y0-may">May [YEAR — CONFIRM]</option><option value="y0-jun">June [YEAR — CONFIRM]</option><option value="y0-jul">July [YEAR — CONFIRM]</option><option value="y0-aug">August [YEAR — CONFIRM]</option><option value="y0-sep">September [YEAR — CONFIRM]</option><option value="y0-oct">October [YEAR — CONFIRM]</option><option value="y0-nov">November [YEAR — CONFIRM]</option><option value="y0-dec">December [YEAR — CONFIRM]</option></optgroup><optgroup label="[YEAR+1 — CONFIRM]"><option value="y1-jan">January [YEAR+1 — CONFIRM]</option><option value="y1-feb">February [YEAR+1 — CONFIRM]</option><option value="y1-mar">March [YEAR+1 — CONFIRM]</option><option value="y1-apr">April [YEAR+1 — CONFIRM]</option><option value="y1-may">May [YEAR+1 — CONFIRM]</option><option value="y1-jun">June [YEAR+1 — CONFIRM]</option><option value="y1-jul">July [YEAR+1 — CONFIRM]</option><option value="y1-aug">August [YEAR+1 — CONFIRM]</option><option value="y1-sep">September [YEAR+1 — CONFIRM]</option><option value="y1-oct">October [YEAR+1 — CONFIRM]</option><option value="y1-nov">November [YEAR+1 — CONFIRM]</option><option value="y1-dec">December [YEAR+1 — CONFIRM]</option></optgroup></select></div>
-    </div>
-    <p class="hint" id="enq-date-hint">Give a date or a month. Choosing a month on the availability grid fills this in.</p>
-    <div class="field-row">
-      <div class="field"><label for="enq-guests">Guest count</label><select id="enq-guests" name="guests" required>
-        <option value="">Choose a band</option>
-        <option>[GUEST COUNT BAND A — CONFIRM]</option><option>[GUEST COUNT BAND B — CONFIRM]</option>
-        <option>[GUEST COUNT BAND C — CONFIRM]</option><option>[GUEST COUNT BAND D — CONFIRM]</option>
-        <option>Not sure yet</option></select></div>
-      <div class="field"><label for="enq-budget">Overall wedding budget</label><select id="enq-budget" name="budget" required>
-        <option value="">Choose a band</option>
-        <option>[BUDGET BAND A — CONFIRM BANDS]</option><option>[BUDGET BAND B — CONFIRM BANDS]</option>
-        <option>[BUDGET BAND C — CONFIRM BANDS]</option><option>[BUDGET BAND D — CONFIRM BANDS]</option>
-        <option>Prefer to discuss</option></select></div>
-    </div>
-    <div class="field-row">
-      <div class="field"><label for="enq-venue">Venue, if booked <span class="opt">(optional)</span></label><input id="enq-venue" name="venue" type="text"></div>
-      <div class="field"><label for="enq-pkg">Package of interest</label><select id="enq-pkg" name="package">
-        <option>Not sure yet</option><option>Full planning</option><option>Partial planning</option><option>Month-of coordination</option></select></div>
-    </div>
-    <div class="field"><label for="enq-note">One line about what you need <span class="opt">(optional)</span></label><input id="enq-note" name="note" type="text" maxlength="200"></div>
-  </fieldset>
-  <section class="deposit" aria-labelledby="dep-h-h2">
-  <h2 class="deposit__h" id="dep-h-h2">A deposit applies to every booking</h2>
-  <p>It is shown here, before you enquire, so you know it exists and what it does.</p>
-  <dl class="facts facts--tight">
-    <div><dt>Amount</dt><dd><span class="ph">[DEPOSIT AMOUNT OR PERCENTAGE — CONFIRM]</span></dd></div>
-    <div><dt>When it is due</dt><dd><span class="ph">[WHEN THE DEPOSIT IS DUE — CONFIRM]</span></dd></div>
-    <div><dt>What it does</dt><dd><span class="ph">[WHAT THE DEPOSIT SECURES — CONFIRM]</span></dd></div>
-  </dl>
-  <div class="terms-slot" role="note" aria-label="Deposit, cancellation and postponement terms">
-  <p class="terms-slot__k">Terms</p>
-  <p><span class="ph">[DEPOSIT, CANCELLATION AND POSTPONEMENT TERMS — CLIENT'S COUNSEL TO SUPPLY, VERBATIM]</span></p>
-</div>
-</section>
-  <p class="datause" id="enq-datause">We use these details to reply to your enquiry and prepare for a consultation, and for nothing else. They are not shared with or sold to anyone. <span class="ph">[DATA RETENTION PERIOD — CONFIRM]</span>. See the <a href="privacy.html">privacy notice (draft)</a>.</p>
-  <p class="form__err" data-form-err aria-live="assertive"></p>
-  <button class="btn btn--primary btn--lg" type="submit" aria-describedby="enq-datause">Book a consultation</button>
-  <p class="form__demo">Demo: this form does not send anything.</p>
-</form>
-<div class="success" data-success hidden tabindex="-1">
-  <p class="success__k">Enquiry received (demo)</p>
-  <p><strong>What happens next</strong> <span class="ph">[WHAT HAPPENS NEXT — CONFIRM]</span></p>
-  <p><strong>When you will hear back</strong> <span class="ph">[RESPONSE TIME — CONFIRM]</span></p>
-</div></div>
+    <aside>
+      <ul class="facts" style="grid-template-columns:1fr">
+        <li><b>Length</b>45 minutes</li>
+        <li><b>Cost</b>Free, with no obligation</li>
+        <li><b>Where</b>By video, or at the studio in Wrenmoor</li>
+        <li><b>Bring</b>Your date or month, a rough guest count, your venue if booked and a budget range</li>
+        <li><b>Reply</b>Within two working days</li>
+      </ul>
+      <div class="mt"><figure class="ph r11 "><div class="ph__media"><img src="assets/img/small-3-600.webp" srcset="assets/img/small-3-600.webp 600w" sizes="(min-width: 900px) 30vw, 90vw" width="600" height="600" alt="A place setting with a silver charger, a lit taper and a small vase of white narcissi" loading="lazy" decoding="async"></div><figcaption class="cap"><span class="cap__t">Taper and narcissi</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure></div>
+    </aside>
   </div>
 </section>
 </main>
-<footer class="footer">
-  <div class="wrap footer__grid">
+<footer class="foot band--deep">
+  <div class="foot__grid">
     <div>
-      <p class="footer__mark">Quillon &amp; Crane</p>
-      <p class="footer__line">Wedding planning and coordination. A fictional business, shown as a design demo.</p>
-      <p class="footer__line">Serving <span class="ph">[SERVICE AREA — CONFIRM]</span> · <span class="ph">[TRAVEL POLICY — CONFIRM]</span></p>
+      <h2>Quillon &amp; Crane</h2>
+      <p>Wedding planning and coordination.<br>Studio 3, 41 Larch Yard, Wrenmoor</p>
+      <p>Serving the Ashby Valley and anywhere within 90 miles of the studio.</p>
+      <p><a href="tel:+15550142">555-0142</a><br><a href="mailto:hello@quillonandcrane.example">hello@quillonandcrane.example</a></p>
+      <p class="muted">Tuesday to Friday, 9:30 to 5:30. Saturday consultations by appointment.</p>
     </div>
-    <nav aria-label="Footer"><ul class="footer__nav"><li><a href="index.html">Home</a></li><li><a href="availability.html">Availability</a></li><li><a href="packages.html">Packages</a></li><li><a href="gallery.html">Plates</a></li><li><a href="process.html">Process</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="enquire.html">Book a consultation</a></li></ul></nav>
     <div>
-      <p class="footer__line"><span class="footer__k">Phone</span> <span class="ph">[PHONE — PLACEHOLDER]</span></p>
-      <p class="footer__line"><span class="footer__k">Email</span> <span class="ph">[EMAIL — PLACEHOLDER]</span></p>
-      <p class="footer__line"><span class="footer__k">Photography</span> <span class="ph">[PHOTOGRAPHY BY — CONFIRM]</span>. Every plate also carries its own credit.</p>
-      <p class="footer__line"><a href="privacy.html">Privacy (draft)</a> · <a href="terms.html">Terms (draft)</a></p>
+      <h3>Pages</h3>
+      <ul><li><a href="index.html">Home</a></li><li><a href="packages.html">Packages</a></li><li><a href="availability.html">Availability</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="process.html">Process</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="enquire.html">Book a consultation</a></li></ul>
+    </div>
+    <div>
+      <h3 id="qm-h">A quick message</h3>
+      <p class="muted">Not ready for the full enquiry? Ask us anything. If you're booking, a deposit applies; it's explained in your proposal.</p>
+      <form class="form" data-quick novalidate aria-labelledby="qm-h">
+        <div class="field"><label for="qm-name">Your name</label><input id="qm-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="qm-email">Email</label><input id="qm-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="qm-msg">Message</label><textarea id="qm-msg" name="message" required></textarea></div>
+        <p class="datause">We use these details only to reply to you. Nothing is shared or added to a mailing list.</p>
+        <p class="form__err" data-form-err aria-live="polite"></p>
+        <p style="margin:0"><button class="btn btn--outline" type="submit">Send message</button></p>
+      </form>
+      <div class="success" data-success hidden tabindex="-1"><p><strong>Thank you.</strong> We reply within two working days.</p><p class="muted" style="margin:0">(Demo: nothing was sent.)</p></div>
     </div>
   </div>
-  <div class="wrap footer__base">
-    <p>DEMO — ThinkFirst Studios · [Your name here]. Quillon &amp; Crane is fictional. Every bracketed item is a blank to be confirmed by the client.</p>
-    <p>© <span class="ph">[YEAR — PLACEHOLDER]</span> Quillon &amp; Crane</p>
+  <div class="foot__base">
+    <span>© 2026 Quillon &amp; Crane, a fictional business. <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    <span>Photographs are Pexels stand-ins, credited under each image.</span>
+    <span>DEMO — ThinkFirst Studios · [Your name here]</span>
   </div>
 </footer>
-
-<nav class="mbar" aria-label="Quick actions" data-mbar>
-  <a href="availability.html" class="mbar__a mbar__a--main">Check a date</a>
-  <a href="packages.html" class="mbar__a">Packages</a>
-  <a href="contact.html#phone" class="mbar__a">Call</a>
-</nav>
+</div>
+<nav class="mbar" aria-label="Quick actions"><a href="availability.html">Check a date</a><a href="packages.html">Packages</a><a href="tel:+15550142">Call</a></nav>
 <script src="script.js" defer></script>
 </body>
 </html>

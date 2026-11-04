@@ -4,125 +4,81 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Get a quote · Pennant Event Co. (DEMO)</title>
-<meta name="description" content="Quote for a date and a headcount, with a labelled estimate.">
+<title>Request a quote · Pennant Event Co.</title>
+<meta name="description" content="Ask Pennant for a written quote for your occasion, date and headcount.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Mitr:wght@200;300;400;500&family=Rozha+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Mitr:wght@300;400;500&family=Rozha+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-<!-- [VIDEO MUSIC RIGHTS — CONFIRM BEFORE ANY REEL IS PUBLISHED] No reel, no autoplaying video and no audio on this template (B16). Any future reel needs synchronisation and master rights, and its footage must contain no minors. -->
-<!-- No analytics, tracking pixel, chat widget or exit-intent script is included. -->
 </head>
-<body>
+<body data-page="quote">
 <a class="skip" href="#main">Skip to content</a>
-<div class="demo-marker" aria-label="Demo marker">DEMO — ThinkFirst Studios · [Your name here]</div>
-<div class="util">
-  <div class="wrap">
-    <p class="u-left"><span class="ph">[CURRENT AVAILABILITY — CONFIRM]</span> <span class="ph">[AS AT — CONFIRM DATE]</span></p>
-    <div class="u-mid"><a class="wordmark" href="index.html">Pennant Event Co.</a><span class="svc">Birthdays · Anniversaries · Milestones · Showers</span></div>
-    <p class="u-right"><span class="ph">[PHONE — PLACEHOLDER]</span></p>
-  </div>
-</div>
-<header class="hdr" data-hdr>
-  <div class="wrap">
-    <a class="brand" href="index.html">Pennant Event Co.</a>
-    <nav class="nav" aria-label="Main"><ul><li><a href="occasions.html">Occasions</a></li><li><a href="packages.html">Packages</a></li><li><a href="add-ons.html">Add-ons</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="process.html">How it works</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
-    <a class="btn" href="quote.html">Get a quote</a>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="overlay" data-menu>Menu</button>
-  </div>
-  
+<p class="demo-marker" aria-label="Demo marker">DEMO — ThinkFirst Studios · [Your name here]</p>
+<div class="frame">
+<header class="site-head">
+  <nav class="nav" aria-label="Main">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list"><span class="bars" aria-hidden="true"></span>Menu</button>
+    <ul id="nav-list"><li><a href="index.html">Home</a></li><li><a href="occasions.html">Occasions</a></li><li><a href="packages.html">Packages</a></li><li><a href="add-ons.html">Add-ons</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="process.html">How it works</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+    <a class="btn btn-orchid nav-cta" href="quote.html">Get a quote</a>
+  </nav>
+  <a class="wordmark" href="index.html" aria-label="Pennant Event Co., home">
+    <span class="wm-name">Pennant</span>
+    <span class="wm-sub"><span>Event Co.</span></span>
+  </a>
 </header>
-<div class="overlay" id="overlay" data-overlay hidden>
-  <button class="menu-btn close" type="button" data-menu-close>Close</button>
-  <nav aria-label="Main (mobile)"><ul><li><a href="index.html">Home</a></li><li><a href="occasions.html">Occasions</a></li><li><a href="packages.html">Packages</a></li><li><a href="add-ons.html">Add-ons</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="process.html">How it works</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
-  <p class="ov-util"><span class="ph">[CURRENT AVAILABILITY — CONFIRM]</span> <span class="ph">[AS AT — CONFIRM DATE]</span><br><span class="ph">[PHONE — PLACEHOLDER]</span></p>
-  <a class="btn" href="quote.html">Get a quote</a>
+<main id="main">
+<figure class="band-photo"><img src="assets/img/g04-chairs-600.webp" srcset="assets/img/g04-chairs-600.webp 600w, assets/img/g04-chairs-1200.webp 1200w" sizes="(min-width: 1180px) 1160px, 100vw" width="600" height="400" alt="Rows of white folding chairs in an empty hall" style="object-position:center 60%"><figcaption class="credit credit-on-photo">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</figcaption></figure>
+<section class="page-title rv">
+  <h1><span>Request a quote</span></h1>
+  <p class="kicker">Tell us the date, the guests and the occasion</p>
+  <p class="lede">We reply with a written quote within two working days. Nothing is booked until you've seen it and paid the deposit.</p>
+</section>
+<section class="wrap quote-wrap">
+  <form class="qform big" data-demo-form data-quote-form novalidate>
+    <fieldset><legend>You</legend>
+      <div class="f2"><div class="f"><label for="q-name">Your name</label><input id="q-name" name="name" autocomplete="name" required></div>
+      <div class="f"><label for="q-email">Email</label><input id="q-email" name="email" type="email" autocomplete="email" required></div></div>
+      <div class="f"><label for="q-phone">Phone <span class="opt">(optional)</span></label><input id="q-phone" name="phone" type="tel" autocomplete="tel"></div>
+    </fieldset>
+    <fieldset><legend>The party</legend>
+      <div class="f2"><div class="f"><label for="q-occ">Occasion</label><select id="q-occ" name="occasion" data-occ-select required><option value="">Choose one</option><option value="milestone-birthday">Milestone birthday</option><option value="anniversary">Anniversary</option><option value="retirement">Retirement</option><option value="engagement-party">Engagement party</option><option value="shower">Shower</option><option value="graduation">Graduation</option><option value="mitzvah">Bar or bat mitzvah</option><option value="quinceanera">Quinceañera</option><option value="sweet-sixteen">Sweet sixteen</option><option value="childrens-birthday">Children&#x27;s birthday</option><option value="other">Something else</option></select></div>
+      <div class="f"><label for="q-mile">Milestone <span class="opt">(optional)</span></label><input id="q-mile" name="milestone" placeholder="e.g. 60th, 25 years, 16th"><p class="hint">A number or a band, not a name.</p></div></div>
+      <div class="f2"><div class="f"><label for="q-date">Date or window</label><input id="q-date" name="date" placeholder="e.g. 14 March, or late spring"></div>
+      <div class="f"><label for="q-guests">Guests</label><input id="q-guests" name="guests" type="number" min="1" inputmode="numeric"></div></div>
+      <div class="f2"><div class="f"><label for="q-venue">Venue, if booked <span class="opt">(optional)</span></label><input id="q-venue" name="venue"></div>
+      <div class="f"><label for="q-budget">Budget</label><select id="q-budget" name="budget"><option value="">Choose one</option><option>Under $1,500</option><option>$1,500 to $3,000</option><option>$3,000 to $6,000</option><option>Over $6,000</option><option>Not sure yet</option></select></div></div>
+      <div class="f"><label for="q-msg">Anything else <span class="opt">(optional)</span></label><textarea id="q-msg" name="message" rows="4"></textarea></div>
+      <div class="carried" data-carried hidden><h3>From your estimate</h3><ul data-carried-list></ul><p class="small">Estimate, not a quote. We'll price these properly.</p><input type="hidden" name="estimate" data-carried-input></div>
+    </fieldset>
+    <div class="commit">
+  <p><strong>A deposit applies.</strong> A deposit of 30% of the quoted package holds your date. We'll send the full agreement with your quote.</p>
+  <div class="slot" role="note">[DEPOSIT, CANCELLATION AND POSTPONEMENT TERMS — CLIENT&#x27;S COUNSEL TO SUPPLY]</div>
 </div>
-<p class="announce" aria-live="polite" data-announce></p>
-<main id="main" data-page="quote"><section class="phead"><div class="wrap">
-  <span class="eyebrow">Occasion, date, headcount</span>
-  <h1>Get a quote</h1>
-  <p class="lead">Your selections are carried in. The estimate recomputes as you change the guest count or the tier.</p>
-</div></section>
-<section class="band band-white"><div class="wrap">
-  <ul class="facts-list" style="margin-bottom:28px">
-    <li><span>What happens next</span><span class="ph">[WHAT HAPPENS NEXT — CONFIRM]</span></li>
-    <li><span>Response time</span><span class="ph">[RESPONSE TIME — CONFIRM]</span></li>
-    <li><span>How soon we can confirm a date</span><span class="ph">[HOW SOON WE CAN CONFIRM A DATE — CONFIRM]</span></li>
-    <li><span>Current availability</span><span class="ph">[CURRENT AVAILABILITY — CONFIRM]</span> <span class="ph">[AS AT — CONFIRM DATE]</span></li>
-  </ul>
-  <div class="tray-grid">
-    <div><form class="form-panel" data-quote-form data-demo-form novalidate aria-labelledby="q-fh">
-  <h3 id="q-fh">Quote request</h3>
-  <p class="hint">This form asks for an occasion and a milestone band. It does not ask for a child's name, age, date of birth or photograph.</p>
-  <div class="fgrid">
-    <div><label for="q-name">Your name</label><input id="q-name" name="name" type="text" autocomplete="name" required></div>
-    <div><label for="q-email">Email</label><input id="q-email" name="email" type="email" autocomplete="email" required></div>
-    <div><label for="q-phone">Phone</label><input id="q-phone" name="phone" type="tel" autocomplete="tel"></div>
-    <div><label for="q-occ">Occasion</label><select id="q-occ" name="occasion" data-occ-select><option value="milestone-birthday">Milestone birthday</option><option value="anniversary">Anniversary</option><option value="retirement">Retirement</option><option value="engagement-party">Engagement party</option><option value="shower">Shower</option><option value="graduation">Graduation</option><option value="mitzvah">Bar or bat mitzvah</option><option value="quinceanera">Quinceañera</option><option value="sweet-sixteen">Sweet sixteen</option><option value="childrens-birthday">Children&#x27;s birthday</option></select></div>
-    <div><label for="q-age">Age or milestone band <span class="hint">A band, not a person. <span class="ph">[AGE OR MILESTONE — CONFIRM]</span></span></label><select id="q-age" name="milestone"><option value="">Not applicable</option><option>[13]</option><option>[15]</option><option>[16]</option><option>[18]</option><option>[21]</option><option>[30]</option><option>[40]</option><option>[50]</option><option>[60]</option><option>[70]</option><option>[80]</option><option>[25] years married</option><option>[50] years married</option></select></div>
-    <div><label for="q-date">Event date or window</label><input id="q-date" name="date" type="text" placeholder="e.g. a Saturday in a month you name" data-date-text></div>
-    <div><label for="q-guests">Guest count</label><input id="q-guests" name="guests" type="number" inputmode="numeric" min="1" max="999" data-guests-text></div>
-    <div><label for="q-venue">Venue, if booked <span class="hint">Optional</span></label><input id="q-venue" name="venue" type="text"></div>
-    <div class="full"><label for="q-budget">Budget band</label><select id="q-budget" name="budget"><option value="">Choose a band</option><option>[BUDGET BAND A — CONFIRM BANDS]</option><option>[BUDGET BAND B — CONFIRM BANDS]</option><option>[BUDGET BAND C — CONFIRM BANDS]</option><option>[BUDGET BAND D — CONFIRM BANDS]</option></select></div>
-    <div class="full"><span class="lbl" id="q-ao-l">Add-ons selected</span><div class="summary-box" aria-labelledby="q-ao-l" data-ao-summary>None yet. <a href="add-ons.html" data-keep-state>Open the add-on tray →</a></div></div>
-    <div class="full"><label for="q-line">Anything else, in one line <span class="hint">Optional</span></label><input id="q-line" name="note" type="text" maxlength="200"></div>
-  </div>
-  <div class="terms-slot" style="margin-top:18px"><strong>Deposit</strong>A deposit is taken at booking: <span class="ph">[DEPOSIT AMOUNT OR PERCENTAGE — CONFIRM]</span>. What it does: <span class="ph">[WHAT THE DEPOSIT DOES — CONFIRM]</span>. Terms: <span class="ph">[DEPOSIT, CANCELLATION AND POSTPONEMENT TERMS — CLIENT'S COUNSEL TO SUPPLY, VERBATIM]</span></div>
-  <div class="terms-slot" style="margin-top:10px"><strong>Rentals</strong><span class="ph">[DAMAGE AND LOSS TERMS — CLIENT'S COUNSEL TO SUPPLY]</span> · <span class="ph">[SECURITY DEPOSIT ON RENTALS — CONFIRM]</span> · <span class="ph">[DELIVERY FEE — CONFIRM]</span> · <span class="ph">[COLLECTION WINDOW — CONFIRM]</span></div>
-  <p class="data-line">What we do with this: your details go to the planner's inbox so she can reply with a quote. They are not shared with anyone else, not added to a mailing list and not used for advertising. This form asks nothing about any child. <span class="ph">[DATA RETENTION PERIOD — CONFIRM]</span></p>
-  <button class="btn" type="submit">Get a quote</button>
-  <div class="success" role="status" tabindex="-1"><strong>Demo form: nothing was sent.</strong> On the live site the planner receives your occasion, date, headcount, budget band and add-ons. <span class="ph">[WHAT HAPPENS NEXT — CONFIRM]</span> <span class="ph">[RESPONSE TIME — CONFIRM]</span> Your figure was an <span class="ph est-lbl">[ESTIMATE — BASED ON PLACEHOLDER RATES]</span></div>
-</form></div>
-    <div><aside class="est ruled" aria-labelledby="e-h" data-est>
-  <h3 id="e-h">Your estimate</h3>
-  <div class="est-fields">
-    <div><label for="e-guests">Guest count</label><input id="e-guests" type="number" inputmode="numeric" min="1" max="999" value="80" data-guests></div>
-    <div><label for="e-date">Event date or window</label><input id="e-date" type="date" data-date></div>
-    <fieldset><legend>Package tier</legend><div class="radios"><label><input type="radio" name="e-tier" value="1"> Tier one</label><label><input type="radio" name="e-tier" value="2" checked> Tier two</label><label><input type="radio" name="e-tier" value="3"> Tier three</label></div></fieldset>
-  </div>
-  <ul class="est-lines" data-lines aria-label="Estimate lines"></ul>
-  <div class="est-total">
-    <span class="fig" data-total aria-describedby="e-lbl">$[0]</span>
-    <span class="ph est-lbl" id="e-lbl">[ESTIMATE — BASED ON PLACEHOLDER RATES]</span>
-  </div>
-  <div class="est-meta">
-    <p><span class="ph">[WHAT IS NOT IN THIS ESTIMATE — CONFIRM]</span> · <span class="ph">[TAX AND SERVICE — CONFIRM]</span></p>
-    <p>Minimum headcount: <span class="ph">[MINIMUM HEADCOUNT — CONFIRM]</span> · Minimum spend: <span class="ph">[MINIMUM SPEND — CONFIRM]</span></p>
-    <p>Not a quote. The planner confirms a price in writing after <span class="ph">[WHAT HAPPENS NEXT — CONFIRM]</span>.</p>
-  </div>
-  <p><a class="btn" href="quote.html" data-quote-link>Get a quote</a></p>
-</aside>
-<div class="est-mini" aria-hidden="true"><span class="fig" data-total-mini>$[0]</span><span class="ph est-lbl">[ESTIMATE — BASED ON PLACEHOLDER RATES]</span></div></div>
-  </div>
-</div></section>
-</main><footer class="ftr">
-  <div class="wrap">
-    <div class="ftr-grid">
-      <div>
-        <h2>Pennant Event Co.</h2>
-        <p>Birthdays, anniversaries, milestones and showers. <span class="ph">[CITY]</span>, <span class="ph">[STATE]</span>.</p>
-        <p><a class="btn" href="quote.html">Get a quote</a></p>
-      </div>
-      <div><h3>Pages</h3><ul><li><a href="occasions.html">Occasions</a></li><li><a href="packages.html">Packages</a></li><li><a href="add-ons.html">Add-ons</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="process.html">How it works</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="quote.html">Get a quote</a></li></ul></div>
-      <div><h3>Occasions</h3><ul class="occ-list"><li>Milestone birthday</li><li>Anniversary</li><li>Retirement</li><li>Engagement party</li><li>Shower</li><li>Graduation</li><li>Bar or bat mitzvah</li><li>Quinceañera</li><li>Sweet sixteen</li><li>Children&#x27;s birthday</li></ul></div>
-      <div><h3>Contact</h3>
-        <p><span class="ph">[PHONE — PLACEHOLDER]</span><br><span class="ph">[EMAIL — PLACEHOLDER]</span></p>
-        <p>Service area: <span class="ph">[SERVICE AREA — CONFIRM]</span><br>Delivery and collection: <span class="ph">[DELIVERY AND COLLECTION RADIUS — CONFIRM]</span></p>
-      </div>
+    <p class="resp">Alcohol service, event permits and tents or other temporary structures are the responsibility of the host and the venue, not Pennant.</p>
+    <div class="f check"><input type="checkbox" id="q-news" name="newsletter"><label for="q-news">Send me an occasional planning note (optional, about four a year)</label></div>
+    <p class="data-use">We use these details to prepare your quote and reply to you. We don't share them, and we delete enquiries that don't go ahead after twelve months.</p>
+    <button class="btn btn-orchid" type="submit">Send quote request</button>
+    <p class="form-status" role="status"></p>
+  </form>
+  <aside class="quote-side">
+    <figure class="framed"><img src="assets/img/p-daisy-table-800.webp" srcset="assets/img/p-daisy-table-800.webp 800w" sizes="(min-width: 900px) 320px, 100vw" width="800" height="1067" alt="Daisies in bud vases and white candles on a woven runner" loading="lazy" decoding="async"><figcaption class="credit">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</figcaption></figure>
+    <h2>Prefer to talk?</h2>
+    <p><a href="tel:+14105550142">(410) 555-0142</a><br><a href="mailto:hello@pennant.example">hello@pennant.example</a><br>Tuesday to Saturday, 10am to 6pm</p>
+    <p class="small">The quick message form on the home page is for questions. This form is for a priced reply.</p>
+  </aside>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="foot-row">
+    <div>
+      <p>© 2026 Pennant Event Co. · 14 Kiln Lane, Larkfield · <a href="tel:+14105550142">(410) 555-0142</a> · <a href="mailto:hello@pennant.example">hello@pennant.example</a></p>
+      <p><a href="faq.html">FAQ</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <span class="demo-foot">DEMO — ThinkFirst Studios · [Your name here]</span> · A fictional business. No real venue, supplier or client is shown.</p>
     </div>
-    <div class="ftr-base">
-      <span>DEMO — ThinkFirst Studios · [Your name here]. Pennant Event Co. is fictional.</span>
-      <a href="privacy.html">Privacy (draft)</a><a href="terms.html">Terms (draft)</a>
-      <span>Photography by <span class="ph">[PHOTOGRAPHY BY — CONFIRM]</span>, in addition to the credit on every image.</span>
-    </div>
+    <div class="social"><a href="contact.html#follow" aria-label="Photos (account to follow)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><circle cx="12" cy="12.5" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></svg></a><a href="contact.html#follow" aria-label="Video (account to follow)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z"/></svg></a><a href="contact.html#follow" aria-label="Pinboard (account to follow)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 1 6 6c0 4.5-6 12-6 12S6 13.5 6 9a6 6 0 0 1 6-6z"/><circle cx="12" cy="9" r="2"/></svg></a><a href="contact.html#follow" aria-label="Newsletter (account to follow)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a></div>
   </div>
 </footer>
-<nav class="mbar" aria-label="Quick actions">
-  <a href="quote.html">Get a quote</a>
-  <a href="index.html#board" data-occasions-link>Occasions</a>
-  <a href="contact.html#call">Call</a>
-</nav>
+</div>
+<p class="sr-only" aria-live="polite" id="announce"></p>
 <script src="assets/data.js"></script>
 <script src="script.js"></script>
 </body>

@@ -4,184 +4,113 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Process · Quillon &amp; Crane (fictional demo)</title>
-<meta name="description" content="Fictional demo: what happens between the first enquiry and the day, step by step.">
+<title>How it works · Quillon &amp; Crane (fictional demo)</title>
+<meta name="description" content="From your first enquiry to the day itself: the steps, who does each and when. Fictional demo.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&amp;family=Marcellus&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&amp;family=Marcellus&amp;display=swap">
 <link rel="stylesheet" href="styles.css">
-<!-- FICTIONAL DEMO. Quillon & Crane does not exist. No tracking, no analytics, no chat widget, no structured review data. -->
-<!-- [VIDEO MUSIC RIGHTS — CONFIRM BEFORE ANY REEL IS PUBLISHED]: no video or audio is used anywhere on this site. A reel needs synchronisation and master rights; a venue's performance licence does not cover a website. -->
 </head>
 <body>
+<p class="demo-mark">DEMO — ThinkFirst Studios · [Your name here]</p>
 <a class="skip" href="#main">Skip to content</a>
-<div class="demo-strip" aria-hidden="true"></div>
-<p class="demo-marker">DEMO — ThinkFirst Studios · [Your name here]</p>
-
-<div class="utility">
-  <div class="utility__in">
-    <p class="utility__left">Availability as at <span class="ph">[AVAILABILITY AS AT — CONFIRM DATE]</span></p>
-    <p class="utility__mid"><a href="index.html" class="utility__mark">Quillon &amp; Crane</a><span>Full planning · Partial planning · Month-of coordination</span></p>
-    <p class="utility__right"><a href="contact.html#phone"><span class="ph">[PHONE — PLACEHOLDER]</span></a></p>
+<div class="frame">
+<header class="ubar">
+  <div class="ubar__in">
+    <div class="ubar__side"><p>Planning a wedding?</p><a href="availability.html">Check a date</a></div>
+    <div class="ubar__mid">
+      <a class="wordmark" href="index.html" aria-label="Quillon and Crane, home">QUILLON &amp; CRANE</a>
+      <p class="ubar__services">Full planning · Partial planning · Month-of coordination</p>
+    </div>
+    <div class="ubar__side"><p>Already booked a venue?</p><a href="packages.html#partial">See partial planning</a></div>
   </div>
-</div>
-
-<header class="site-header" data-header>
-  <div class="site-header__in">
-    <a class="wordmark" href="index.html" aria-label="Quillon and Crane, home">Quillon <span aria-hidden="true">&amp;</span> Crane</a>
-    <nav class="nav" aria-label="Main">
-      <ul><li><a href="availability.html">Availability</a></li>
-<li><a href="packages.html">Packages</a></li>
-<li><a href="gallery.html">Plates</a></li>
-<li><a href="process.html" aria-current="page">Process</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="contact.html">Contact</a></li></ul>
-    </nav>
-    <a class="btn btn--primary site-header__cta" href="enquire.html">Book a consultation</a>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
-      <span class="menu-btn__bars" aria-hidden="true"></span><span class="menu-btn__txt">Menu</span>
-    </button>
-  </div>
+  <div class="ubar__mobile"><a href="availability.html">Check a date</a><a href="packages.html#partial">Partial planning</a></div>
 </header>
-
-<div class="menu" id="menu" hidden data-menu>
-  <div class="menu__top">
-    <span class="wordmark">Quillon &amp; Crane</span>
-    <button class="menu__close" type="button" data-menu-close>Close</button>
-  </div>
-  <nav aria-label="Mobile">
-    <ul class="menu__list">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="availability.html">Availability</a></li>
-<li><a href="packages.html">Packages</a></li>
-<li><a href="gallery.html">Plates</a></li>
-<li><a href="process.html" aria-current="page">Process</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="contact.html">Contact</a></li>
-      <li><a href="enquire.html">Book a consultation</a></li>
+<nav class="nav" data-nav aria-label="Main">
+  <div class="nav__in">
+    <ul class="social">
+      <li><a href="gallery.html" aria-label="Photographs (gallery)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></svg></a></li>
+      <li><a href="contact.html#studio" aria-label="Find the studio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-6.5-6.1-6.5-11A6.5 6.5 0 0 1 18.5 10c0 4.9-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg></a></li>
+      <li><a href="mailto:hello@quillonandcrane.example" aria-label="Email the studio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg></a></li>
     </ul>
-  </nav>
-  <a class="btn btn--primary menu__pin" href="availability.html">Check a date</a>
-</div>
-
+    <button class="nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <ul class="nav__links" id="navlinks"><li><a href="packages.html">Packages</a></li><li><a href="availability.html">Availability</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="process.html" aria-current="page">Process</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul>
+    <p class="nav__cta" style="margin:0"><a href="enquire.html">Enquire</a></p>
+  </div>
+</nav>
 <main id="main">
-<section class="band band--dark page-head">
-  <div class="wrap">
-    <div class="lockup lockup--left"><p class="eyebrow">Process</p><h1 class="lockup__h" id="top">What happens, and when</h1></div>
-    <p class="page-head__p"><span class="ph">[PLACEHOLDER: 2–3 sentences — client to supply]</span></p>
+<section class="band band--blush hero hero--pair" data-hero>
+  <div class="hero__grid">
+    <div class="hero__text">
+      <p class="crumbs"><a href="index.html">Home</a> / Process</p>
+      <h1 class="h-xl">The process</h1>
+      <span class="sub">From first message to the last table cleared</span>
+      <p class="lede">Most of what you pay a planner for is the process. Here it is, step by step, with who does each part and when.</p>
+      <div class="actions"><a class="btn btn--outline" href="availability.html">Check a date</a><a class="link-arrow" href="enquire.html">Book a consultation →</a></div>
+      
+    </div>
+    <div class="pair">
+      <figure class="ph r45 pair__rear"><div class="ph__media"><img src="assets/img/plate-09-600.webp" srcset="assets/img/plate-09-600.webp 600w, assets/img/plate-09-1200.webp 1200w" sizes="(min-width: 900px) 34vw, 75vw" width="1200" height="1500" alt="An adult's hands setting a glass vase of dried white flowers on a table" fetchpriority="high" decoding="async"></div><figcaption class="cap"><span class="cap__t">Setting a vase</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+      <figure class="ph r11 pair__front"><div class="ph__media"><img src="assets/img/three-01-600.webp" srcset="assets/img/three-01-600.webp 600w, assets/img/three-01-1000.webp 1000w" sizes="(min-width: 900px) 24vw, 55vw" width="1000" height="1000" alt="A tall white tiered cake with piped detailing" fetchpriority="high" decoding="async"></div><figcaption class="cap"><span class="cap__t">Tiered white cake</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+    </div>
   </div>
 </section>
-<section class="band band--tissue" aria-labelledby="st-h">
-  <div class="wrap">
-    <h2 class="visually-hidden" id="st-h">The steps</h2>
-    <ol class="steps"><li><figure class="plate plate--step plate--text">
-    <figcaption class="rail">
-      <p class="rail__head"><span class="rail__no">STEP <span class="ph">[01]</span></span><span class="rail__title"><span class="ph">[FIRST CONTACT AND DATE CHECK — CONFIRM]</span></span></p>
-      <p class="rail__desc"><span class="ph">[WHAT HAPPENS — PLACEHOLDER: 1–2 sentences]</span></p><dl class="facts facts--rail">
-        <div><dt>Who does it</dt><dd><span class="ph">[WHO DOES IT — CONFIRM]</span></dd></div>
-        <div><dt>When</dt><dd><span class="ph">[WHEN — CONFIRM]</span></dd></div>
-      </dl>
-    </figcaption>
-  </figure></li><li><figure class="plate plate--step plate--text">
-    <figcaption class="rail">
-      <p class="rail__head"><span class="rail__no">STEP <span class="ph">[02]</span></span><span class="rail__title"><span class="ph">[CONSULTATION — CONFIRM]</span></span></p>
-      <p class="rail__desc"><span class="ph">[WHAT HAPPENS — PLACEHOLDER: 1–2 sentences]</span></p><dl class="facts facts--rail">
-        <div><dt>Who does it</dt><dd><span class="ph">[WHO DOES IT — CONFIRM]</span></dd></div>
-        <div><dt>When</dt><dd><span class="ph">[WHEN — CONFIRM]</span></dd></div>
-      </dl>
-    </figcaption>
-  </figure></li><li><figure class="plate plate--step plate--text">
-    <figcaption class="rail">
-      <p class="rail__head"><span class="rail__no">STEP <span class="ph">[03]</span></span><span class="rail__title"><span class="ph">[BOOKING AND DEPOSIT — CONFIRM]</span></span></p>
-      <p class="rail__desc"><span class="ph">[WHAT HAPPENS — PLACEHOLDER: 1–2 sentences]</span></p><dl class="facts facts--rail">
-        <div><dt>Who does it</dt><dd><span class="ph">[WHO DOES IT — CONFIRM]</span></dd></div>
-        <div><dt>When</dt><dd><span class="ph">[WHEN — CONFIRM]</span></dd></div>
-      </dl>
-    </figcaption>
-  </figure></li><li><figure class="plate plate--step">
-    <div class="plate__media"><img src="assets/img/process-01-600.webp" srcset="assets/img/process-01-600.webp 600w, assets/img/process-01-1200.webp 1200w" sizes="(min-width: 900px) 30vw, 92vw" width="1200" height="675" alt="Printed floor plans and layout drawings spread across a desk" loading="lazy" decoding="async"></div>
-    <figcaption class="rail">
-      <p class="rail__head"><span class="rail__no">STEP <span class="ph">[04]</span></span><span class="rail__title"><span class="ph">[PLANNING MEETINGS — CONFIRM]</span></span></p>
-      <p class="rail__desc"><span class="ph">[WHAT HAPPENS — PLACEHOLDER: 1–2 sentences]</span></p><dl class="facts facts--rail">
-        <div><dt>Who does it</dt><dd><span class="ph">[WHO DOES IT — CONFIRM]</span></dd></div>
-        <div><dt>When</dt><dd><span class="ph">[WHEN — CONFIRM]</span></dd></div>
-      </dl>
-      <p class="rail__credit"><span class="rail__credit-label">Photograph</span> <span class="ph">[IMAGE CREDIT — PHOTOGRAPHER NAME AND LICENCE — CONFIRM]</span></p>
-    </figcaption>
-  </figure></li><li><figure class="plate plate--step">
-    <div class="plate__media"><img src="assets/img/process-02-600.webp" srcset="assets/img/process-02-600.webp 600w, assets/img/process-02-1200.webp 1200w" sizes="(min-width: 900px) 30vw, 92vw" width="1200" height="675" alt="A close view of a laid place setting with cutlery and a folded napkin" loading="lazy" decoding="async"></div>
-    <figcaption class="rail">
-      <p class="rail__head"><span class="rail__no">STEP <span class="ph">[05]</span></span><span class="rail__title"><span class="ph">[DESIGN AND DETAILS — CONFIRM]</span></span></p>
-      <p class="rail__desc"><span class="ph">[WHAT HAPPENS — PLACEHOLDER: 1–2 sentences]</span></p><dl class="facts facts--rail">
-        <div><dt>Who does it</dt><dd><span class="ph">[WHO DOES IT — CONFIRM]</span></dd></div>
-        <div><dt>When</dt><dd><span class="ph">[WHEN — CONFIRM]</span></dd></div>
-      </dl>
-      <p class="rail__credit"><span class="rail__credit-label">Photograph</span> <span class="ph">[IMAGE CREDIT — PHOTOGRAPHER NAME AND LICENCE — CONFIRM]</span></p>
-    </figcaption>
-  </figure></li><li><figure class="plate plate--step plate--text">
-    <figcaption class="rail">
-      <p class="rail__head"><span class="rail__no">STEP <span class="ph">[06]</span></span><span class="rail__title"><span class="ph">[WHEN MONTH-OF COORDINATION STARTS — CONFIRM]</span></span></p>
-      <p class="rail__desc"><span class="ph">[WHAT HAPPENS — PLACEHOLDER: 1–2 sentences]</span></p><dl class="facts facts--rail">
-        <div><dt>Who does it</dt><dd><span class="ph">[WHO DOES IT — CONFIRM]</span></dd></div>
-        <div><dt>When</dt><dd><span class="ph">[WHEN — CONFIRM]</span></dd></div>
-      </dl>
-    </figcaption>
-  </figure></li><li><figure class="plate plate--step">
-    <div class="plate__media"><img src="assets/img/process-03-600.webp" srcset="assets/img/process-03-600.webp 600w, assets/img/process-03-1200.webp 1200w" sizes="(min-width: 900px) 30vw, 92vw" width="1200" height="675" alt="An empty dining room in low evening light, with pendant lamps over a wooden table" loading="lazy" decoding="async"></div>
-    <figcaption class="rail">
-      <p class="rail__head"><span class="rail__no">STEP <span class="ph">[07]</span></span><span class="rail__title"><span class="ph">[ON THE DAY — CONFIRM]</span></span></p>
-      <p class="rail__desc"><span class="ph">[WHAT HAPPENS — PLACEHOLDER: 1–2 sentences]</span></p><dl class="facts facts--rail">
-        <div><dt>Who does it</dt><dd><span class="ph">[WHO DOES IT — CONFIRM]</span></dd></div>
-        <div><dt>When</dt><dd><span class="ph">[WHEN — CONFIRM]</span></dd></div>
-      </dl>
-      <p class="rail__credit"><span class="rail__credit-label">Photograph</span> <span class="ph">[IMAGE CREDIT — PHOTOGRAPHER NAME AND LICENCE — CONFIRM]</span></p>
-    </figcaption>
-  </figure></li><li><figure class="plate plate--step plate--text">
-    <figcaption class="rail">
-      <p class="rail__head"><span class="rail__no">STEP <span class="ph">[08]</span></span><span class="rail__title"><span class="ph">[WHAT HAPPENS AFTER THE DAY — CONFIRM]</span></span></p>
-      <p class="rail__desc"><span class="ph">[WHAT HAPPENS — PLACEHOLDER: 1–2 sentences]</span></p><dl class="facts facts--rail">
-        <div><dt>Who does it</dt><dd><span class="ph">[WHO DOES IT — CONFIRM]</span></dd></div>
-        <div><dt>When</dt><dd><span class="ph">[WHEN — CONFIRM]</span></dd></div>
-      </dl>
-    </figcaption>
-  </figure></li></ol>
-  </div>
+<section class="band band--light after-pair">
+  <div class="head-c"><span class="eyebrow">Six steps</span><h2 class="h-l">What happens, and when</h2></div>
+  <div class="pstep"><figure class="ph r43 "><div class="ph__media"><img src="assets/img/step-1-600.webp" srcset="assets/img/step-1-600.webp 600w, assets/img/step-1-1000.webp 1000w" sizes="(min-width: 900px) 45vw, 90vw" width="1000" height="750" alt="Handmade paper cards with coloured wax seals and pressed leaves, laid flat" loading="lazy" decoding="async"></div><figcaption class="cap"><span class="cap__t">Wax-sealed cards</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+      <div><span class="step__no">01</span><h2 class="h-m">Check a date and enquire</h2><p>Choose a month in the availability grid and send the form with your date, rough guest count and budget range. Those three let us reply with something useful.</p>
+      <ul class="facts"><li><b>Who</b>Imogen</li><li><b>When</b>Within two working days</li></ul></div></div><div class="pstep"><figure class="ph r43 "><div class="ph__media"><img src="assets/img/step-2-600.webp" srcset="assets/img/step-2-600.webp 600w, assets/img/step-2-1000.webp 1000w" sizes="(min-width: 900px) 45vw, 90vw" width="1000" height="750" alt="An adult's hands binding tulips and eucalyptus with twine on a table" loading="lazy" decoding="async"></div><figcaption class="cap"><span class="cap__t">Binding tulips</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+      <div><span class="step__no">02</span><h2 class="h-m">The consultation</h2><p>Forty-five minutes, free, by video or at the studio in Wrenmoor. We talk through what you've booked, what worries you and which package fits.</p>
+      <ul class="facts"><li><b>Who</b>Imogen or Theo</li><li><b>When</b>Usually within a week of your enquiry</li></ul></div></div><div class="pstep"><figure class="ph r43 "><div class="ph__media"><img src="assets/img/step-3-600.webp" srcset="assets/img/step-3-600.webp 600w, assets/img/step-3-1000.webp 1000w" sizes="(min-width: 900px) 45vw, 90vw" width="1000" height="750" alt="An adult's hands tying a bouquet of roses and greenery on a worn wooden table" loading="lazy" decoding="async"></div><figcaption class="cap"><span class="cap__t">Tying a bouquet</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+      <div><span class="step__no">03</span><h2 class="h-m">Proposal and booking</h2><p>A written proposal setting out the scope, the fee, the team and the deposit that holds your date. Nothing is booked until you sign.</p>
+      <ul class="facts"><li><b>Who</b>Theo</li><li><b>When</b>Within a week of the consultation</li></ul></div></div><div class="pstep"><figure class="ph r43 "><div class="ph__media"><img src="assets/img/pkg-partial-600.webp" srcset="assets/img/pkg-partial-600.webp 600w, assets/img/pkg-partial-1000.webp 1000w" sizes="(min-width: 900px) 45vw, 90vw" width="1000" height="750" alt="A long table with white linen and dark chairs in a brick courtyard with an iron grille" loading="lazy" decoding="async"></div><figcaption class="cap"><span class="cap__t">Courtyard long table</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+      <div><span class="step__no">04</span><h2 class="h-m">Planning</h2><p>Budget, suppliers, design and floor plan, at the pace your package sets. Every supplier contract is read with you before you sign it.</p>
+      <ul class="facts"><li><b>Who</b>Your lead planner</li><li><b>When</b>From 18 months to 8 weeks before</li></ul></div></div><div class="pstep"><figure class="ph r32 "><div class="ph__media"><img src="assets/img/plate-06-600.webp" srcset="assets/img/plate-06-600.webp 600w, assets/img/plate-06-1200.webp 1200w" sizes="(min-width: 900px) 45vw, 90vw" width="1200" height="800" alt="Rows of clear wine glasses and tumblers set along a long table beside tall windows" loading="lazy" decoding="async"></div><figcaption class="cap"><span class="cap__t">Glassware set out</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+      <div><span class="step__no">05</span><h2 class="h-m">Final weeks</h2><p>We confirm every supplier and timing, issue the run sheet and walk the venue with you.</p>
+      <ul class="facts"><li><b>Who</b>Your planner and Jules</li><li><b>When</b>The last 8 weeks</li></ul></div></div><div class="pstep"><figure class="ph r45 "><div class="ph__media"><img src="assets/img/hero-a-800.webp" srcset="assets/img/hero-a-800.webp 800w, assets/img/hero-a-1400.webp 1400w, assets/img/hero-a-2000.webp 2000w" sizes="(min-width: 900px) 45vw, 90vw" width="2000" height="2500" alt="A long dining table laid with dark plates and lit candles beneath hanging greenery, in a dim room before guests arrive" loading="lazy" decoding="async"></div><figcaption class="cap"><span class="cap__t">Candlelit long table</span><span class="cap__c">Photo: [PHOTOGRAPHER — CONFIRM] · Pexels</span></figcaption></figure>
+      <div><span class="step__no">06</span><h2 class="h-m">The day, and after</h2><p>We set the room, run the timeline and stay until the room is cleared. The following week we return anything hired on your behalf and close the supplier list with you.</p>
+      <ul class="facts"><li><b>Who</b>The day team named in your proposal</li><li><b>When</b>The wedding day and the week after</li></ul></div></div>
 </section>
 <section class="band band--dark">
-  <div class="wrap center">
-    <p class="lead lead--center">Month-of coordination does not start on the day. It starts <span class="ph">[WHEN MONTH-OF STARTS — CONFIRM]</span> before it.</p>
-    <p><a class="btn btn--primary btn--lg" href="enquire.html">Book a consultation</a></p>
-  </div>
+  <div class="w-narrow center"><h2 class="h-l">Start with your date</h2><p class="lede">Check your month, then book a consultation.</p>
+  <div class="actions" style="justify-content:center"><a class="btn btn--primary" href="enquire.html">Book a consultation</a><a class="link-arrow" href="availability.html">Check a date →</a></div></div>
 </section>
 </main>
-<footer class="footer">
-  <div class="wrap footer__grid">
+<footer class="foot band--deep">
+  <div class="foot__grid">
     <div>
-      <p class="footer__mark">Quillon &amp; Crane</p>
-      <p class="footer__line">Wedding planning and coordination. A fictional business, shown as a design demo.</p>
-      <p class="footer__line">Serving <span class="ph">[SERVICE AREA — CONFIRM]</span> · <span class="ph">[TRAVEL POLICY — CONFIRM]</span></p>
+      <h2>Quillon &amp; Crane</h2>
+      <p>Wedding planning and coordination.<br>Studio 3, 41 Larch Yard, Wrenmoor</p>
+      <p>Serving the Ashby Valley and anywhere within 90 miles of the studio.</p>
+      <p><a href="tel:+15550142">555-0142</a><br><a href="mailto:hello@quillonandcrane.example">hello@quillonandcrane.example</a></p>
+      <p class="muted">Tuesday to Friday, 9:30 to 5:30. Saturday consultations by appointment.</p>
     </div>
-    <nav aria-label="Footer"><ul class="footer__nav"><li><a href="index.html">Home</a></li><li><a href="availability.html">Availability</a></li><li><a href="packages.html">Packages</a></li><li><a href="gallery.html">Plates</a></li><li><a href="process.html">Process</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="enquire.html">Book a consultation</a></li></ul></nav>
     <div>
-      <p class="footer__line"><span class="footer__k">Phone</span> <span class="ph">[PHONE — PLACEHOLDER]</span></p>
-      <p class="footer__line"><span class="footer__k">Email</span> <span class="ph">[EMAIL — PLACEHOLDER]</span></p>
-      <p class="footer__line"><span class="footer__k">Photography</span> <span class="ph">[PHOTOGRAPHY BY — CONFIRM]</span>. Every plate also carries its own credit.</p>
-      <p class="footer__line"><a href="privacy.html">Privacy (draft)</a> · <a href="terms.html">Terms (draft)</a></p>
+      <h3>Pages</h3>
+      <ul><li><a href="index.html">Home</a></li><li><a href="packages.html">Packages</a></li><li><a href="availability.html">Availability</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="process.html">Process</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="enquire.html">Book a consultation</a></li></ul>
+    </div>
+    <div>
+      <h3 id="qm-h">A quick message</h3>
+      <p class="muted">Not ready for the full enquiry? Ask us anything. If you're booking, a deposit applies; it's explained in your proposal.</p>
+      <form class="form" data-quick novalidate aria-labelledby="qm-h">
+        <div class="field"><label for="qm-name">Your name</label><input id="qm-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="qm-email">Email</label><input id="qm-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="qm-msg">Message</label><textarea id="qm-msg" name="message" required></textarea></div>
+        <p class="datause">We use these details only to reply to you. Nothing is shared or added to a mailing list.</p>
+        <p class="form__err" data-form-err aria-live="polite"></p>
+        <p style="margin:0"><button class="btn btn--outline" type="submit">Send message</button></p>
+      </form>
+      <div class="success" data-success hidden tabindex="-1"><p><strong>Thank you.</strong> We reply within two working days.</p><p class="muted" style="margin:0">(Demo: nothing was sent.)</p></div>
     </div>
   </div>
-  <div class="wrap footer__base">
-    <p>DEMO — ThinkFirst Studios · [Your name here]. Quillon &amp; Crane is fictional. Every bracketed item is a blank to be confirmed by the client.</p>
-    <p>© <span class="ph">[YEAR — PLACEHOLDER]</span> Quillon &amp; Crane</p>
+  <div class="foot__base">
+    <span>© 2026 Quillon &amp; Crane, a fictional business. <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    <span>Photographs are Pexels stand-ins, credited under each image.</span>
+    <span>DEMO — ThinkFirst Studios · [Your name here]</span>
   </div>
 </footer>
-
-<nav class="mbar" aria-label="Quick actions" data-mbar>
-  <a href="availability.html" class="mbar__a mbar__a--main">Check a date</a>
-  <a href="packages.html" class="mbar__a">Packages</a>
-  <a href="contact.html#phone" class="mbar__a">Call</a>
-</nav>
+</div>
+<nav class="mbar" aria-label="Quick actions"><a href="availability.html">Check a date</a><a href="packages.html">Packages</a><a href="tel:+15550142">Call</a></nav>
 <script src="script.js" defer></script>
 </body>
 </html>
