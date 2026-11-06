@@ -105,6 +105,10 @@ ul,ol{list-style:none}
 .hero{overflow:hidden;background:linear-gradient(165deg,#F7C9D4 0%,#F2A6BC 100%)}
 .hero-in{display:grid;gap:28px;padding-top:32px}
 .hero-txt{padding-inline:var(--pad)}
+.hero-txt .disp{font-size:58px}
+.hero-txt .ital{font-size:24px}
+.hero-txt .voice{font-size:22px}
+.hero-txt .btn{font-size:24px;min-height:56px}
 .hero-txt .voice{margin-top:16px}
 .disp .ln{display:block}
 .hero-txt .mk{margin-left:6px}
@@ -112,7 +116,12 @@ ul,ol{list-style:none}
 .hero-img .credit{padding-left:10px}
 @media(min-width:900px){
   .hero-in{grid-template-columns:minmax(0,1fr) 46vw;align-items:center;padding-top:0;gap:40px}
-  .hero-txt{padding-left:max(var(--pad),calc((100vw - 1360px)/2 + var(--pad)));padding-right:0;padding-block:40px}
+  .hero-txt{padding:48px 0 48px var(--pad);text-align:center}
+  .hero-txt .disp{font-size:clamp(66px,7.6vw,132px)}
+  .hero-txt .ital{font-size:clamp(28px,2.7vw,44px)}
+  .hero-txt .voice{font-size:clamp(23px,1.9vw,30px);margin-inline:auto;max-width:30em}
+  .hero-txt .btns{justify-content:center;margin-top:32px}
+  .hero-txt .btn{font-size:clamp(24px,2vw,30px);min-height:62px;padding:14px 30px 11px}
   .hero-img{margin-left:0}
 }
 
