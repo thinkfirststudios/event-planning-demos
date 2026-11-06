@@ -116,7 +116,7 @@ ul,ol{list-style:none}
 .hero-img .credit{padding-left:10px}
 @media(min-width:900px){
   .hero-in{grid-template-columns:minmax(0,1fr) 46vw;align-items:center;padding-top:0;gap:40px}
-  .hero-txt{padding:48px 0 48px var(--pad);text-align:center}
+  .hero-txt{padding:32px 0 clamp(110px,16vh,180px) var(--pad);text-align:center}
   .hero-txt .disp{font-size:clamp(66px,7.6vw,132px)}
   .hero-txt .ital{font-size:clamp(28px,2.7vw,44px)}
   .hero-txt .voice{font-size:clamp(23px,1.9vw,30px);margin-inline:auto;max-width:30em}
