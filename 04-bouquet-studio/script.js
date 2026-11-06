@@ -52,16 +52,16 @@
     if(grid&&!reduce){grid.classList.add('fade');setTimeout(apply,180)}else{apply()}
   })});
 
-  /* a look carries into the enquiry */
-  function setLook(slug){var s=$('select[name=look]');if(!s)return false;
+  /* the chosen kind of event carries into the enquiry */
+  function setEvent(slug){var s=$('select[name=event]');if(!s)return false;
     var ok=[].some.call(s.options,function(o){return o.value===slug});
-    if(ok){s.value=slug;var n=$('#from-look');if(n){n.textContent='You’re starting from '+s.options[s.selectedIndex].text+'.';n.hidden=false}}
+    if(ok){s.value=slug;var n=$('#from-event');if(n){n.textContent='You\u2019re planning '+s.options[s.selectedIndex].text+'.';n.hidden=false}}
     return ok}
-  var p=new URLSearchParams(location.search).get('look');if(p)setLook(p);
+  var p=new URLSearchParams(location.search).get('event');if(p)setEvent(p);
   var inline=$('#enquire');
-  if(inline){$$('a[data-look]').forEach(function(a){a.addEventListener('click',function(e){
-    var slug=a.getAttribute('data-look');if(!setLook(slug))return;e.preventDefault();
-    try{history.replaceState(null,'','?look='+slug+'#enquire')}catch(err){}
+  if(inline){$$('a[data-event]').forEach(function(a){a.addEventListener('click',function(e){
+    var slug=a.getAttribute('data-event');if(!setEvent(slug))return;e.preventDefault();
+    try{history.replaceState(null,'','?event='+slug+'#enquire')}catch(err){}
     inline.scrollIntoView({behavior:reduce?'auto':'smooth'});
     var f=$('input[name=name]',inline);if(f)f.focus({preventScroll:true});
   })})}
