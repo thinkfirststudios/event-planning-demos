@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact · The Late Room</title>
+<meta name="description" content="Email and a short form. To plan a night, book a walkthrough.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#120C0F">
+<link rel="icon" href="data:,">
+<script>document.documentElement.className='js'</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&family=Crete+Round:ital@0;1&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="quiet">
+<a class="skip" href="#main">Skip to content</a>
+<header class="head">
+  <div class="wrap head-in">
+    <a class="mark" href="index.html" aria-label="The Late Room, home"><b>The Late Room</b><span>evening events, designed and run</span></a>
+    <nav class="nav" aria-label="Main"><a href="night.html">The night</a><a href="rooms.html">Rooms</a><a href="services.html">What I do</a><a href="costs.html">What it costs</a><a href="about.html">About</a><a href="faq.html">FAQ</a></nav>
+    <a class="btn" href="enquire.html">Book a walkthrough</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+  </div>
+</header>
+<div class="overlay" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="overlay-top"><a class="mark" href="index.html"><b>The Late Room</b></a><button class="menu-btn menu-close" type="button" style="display:block">Close</button></div>
+  <ul><li><a href="night.html">The night</a></li><li><a href="rooms.html">Rooms</a></li><li><a href="services.html">What I do</a></li><li><a href="costs.html">What it costs</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul>
+  <a class="btn" href="enquire.html">Book a walkthrough</a>
+</div>
+<main id="main">
+<section class="wrap page-head" data-first>
+  <h1 class="caps title">Contact</h1>
+  <p class="lede"><a class="inline-link" href="enquire.html">Planning a night? Book a walkthrough →</a></p>
+</section>
+<section class="wrap" style="padding-bottom:clamp(70px,9vw,130px)">
+  <div class="form-grid">
+    <div class="plain">
+      <h2 style="margin-top:0">Email</h2>
+      <p><a class="inline-link" href="mailto:idris@thelateroom.example">idris@thelateroom.example</a></p>
+      <h2>Where I work</h2>
+      <p>Downtown and the neighbourhoods either side of it.</p>
+      <h2>When I read it</h2>
+      <p>Afternoons, Tuesday to Saturday. On a night I’m in a room and I won’t answer.</p>
+    </div>
+    <div>
+      <form class="form" data-form data-done="c-sent" novalidate>
+        <div class="f" data-req><label for="c-name">Your name</label><input id="c-name" name="name" type="text" autocomplete="name" required><p class="err">I’ll need a name to reply to.</p></div>
+        <div class="f" data-req><label for="c-email">Your email</label><input id="c-email" name="email" type="email" autocomplete="email" required><p class="err">That email doesn’t look complete.</p></div>
+        <div class="f"><label for="c-why">What it’s about</label><select id="c-why" name="reason"><option>A night I’m planning</option><option>A room I’m offering</option><option>A press enquiry</option><option>Something else</option></select></div>
+        <div class="f" data-req><label for="c-msg">Your message</label><textarea id="c-msg" name="message" rows="4" required></textarea><p class="err">Say a little more.</p></div>
+        <div class="legal-lines"><p>What you send here comes to me and nobody else. I use it to reply about your night. It isn’t shared, sold or added to a list. <a href="privacy.html">How this site handles it</a>.</p></div>
+        <button class="btn" type="submit">Send it</button>
+      </form>
+      <div class="sent" id="c-sent" hidden><h3>That’s with me.</h3><p>I’ll reply by the next working evening.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p class="caps foot-mark">The Late Room</p>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="night.html">The night</a><a href="rooms.html">Rooms</a><a href="services.html">What I do</a><a href="costs.html">What it costs</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+    </nav>
+    <div class="foot-lines">
+      <p class="lic">The room holds the licence, the room’s staff pour, and the studio does not serve alcohol.</p>
+      <p><a href="mailto:idris@thelateroom.example">idris@thelateroom.example</a><br>Working downtown and in the neighbourhoods either side of it.</p>
+      <p>Every photograph on this site belongs to the photographer named beneath it and is used under the Pexels licence. None was taken by the studio and none shows a Late Room event.</p>
+    </div>
+  </div>
+</footer>
+<nav class="bar" aria-label="Quick links"><a href="night.html">The night</a><a href="costs.html">What it costs</a><a href="enquire.html">Book a walkthrough</a></nav>
+<script src="script.js"></script>
+</body>
+</html>
