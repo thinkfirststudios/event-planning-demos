@@ -1,4 +1,4 @@
-/* THE LATE ROOM. One pass, slightly weighted, then completely still. */
+/* THE LATE ROOM v2. Colour arrives, prints settle onto the page, then everything is still. */
 (function () {
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var head = document.querySelector('.head');
@@ -47,7 +47,7 @@
   }
 
   var fields = [].slice.call(document.querySelectorAll('.field'));
-  var rises = [].slice.call(document.querySelectorAll('.rise'));
+  var rises = [].slice.call(document.querySelectorAll('.rise, .print'));
 
   if (reduce || !('IntersectionObserver' in window)) {
     fields.forEach(function (f) { f.classList.add('lit'); });
@@ -59,7 +59,7 @@
       if (busy || !queue.length) return;
       busy = true;
       queue.shift().classList.add('lit');
-      setTimeout(function () { busy = false; next(); }, 440);
+      setTimeout(function () { busy = false; next(); }, 300);
     };
     var fo = new IntersectionObserver(function (es) {
       es.forEach(function (e) {
@@ -72,7 +72,7 @@
       var n = 0;
       es.forEach(function (e) {
         if (e.isIntersecting) {
-          e.target.style.setProperty('--d', (n++ * 80) + 'ms');
+          e.target.style.setProperty('--d', (n++ * 110) + 'ms');
           e.target.classList.add('in');
           ro.unobserve(e.target);
         }
@@ -93,7 +93,8 @@
         items.forEach(function (i) {
           i.hidden = !(k === 'all' || i.getAttribute('data-kind') === k);
           if (!i.hidden) {
-            i.classList.add('in', 'lit');
+            i.classList.add('lit');
+            [].forEach.call(i.querySelectorAll('.print'), function (p) { p.classList.add('in'); });
           }
         });
       });
