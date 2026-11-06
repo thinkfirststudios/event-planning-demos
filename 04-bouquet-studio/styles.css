@@ -3,7 +3,7 @@
   --paper:#FFFCF8;--paper-2:#F6F0EA;--pink:#F7C9D4;--powder:#BBD3E8;--butter:#F6E3A1;--lilac:#D8CBEE;
   --ink:#41263F;--ink-mid:#7A6372;--rule:#E0D3DA;--rasp:#B32E57;--rasp-deep:#8C1F43;
   --d:44px;--pad:20px;--hdr:84px;
-  --disp:"Staatliches",Impact,sans-serif;--ital:"Amiri",Georgia,serif;--hand:"Gloria Hallelujah",cursive;--body:"Quicksand",system-ui,sans-serif;
+  --disp:"Staatliches",Impact,sans-serif;--ital:"Amiri",Georgia,serif;--hand:"Handlee",cursive;--body:"Quicksand",system-ui,sans-serif;
 }
 @media(min-width:768px){:root{--d:64px;--pad:40px}}
 @media(min-width:1100px){:root{--d:84px}}
@@ -26,7 +26,7 @@ ul,ol{list-style:none}
 .sub{font:400 clamp(26px,3vw,34px)/1 var(--disp);letter-spacing:.02em;text-transform:uppercase}
 .ital{display:block;font:italic 400 calc(var(--d)*.42)/1.2 var(--ital);letter-spacing:0;text-transform:none;margin-top:.5em}
 .stand{font:italic 400 clamp(22px,2.4vw,28px)/1.25 var(--ital);max-width:34em;margin-top:18px}
-.voice{font:400 20px/1.55 var(--hand);color:var(--ink);max-width:36em}
+.voice{font:400 22px/1.4 var(--hand);color:var(--ink);max-width:36em}
 .slip{display:block;background:var(--paper);border:1px solid var(--rule);border-radius:2px;padding:12px 16px}
 .hl{position:relative;display:inline-block;white-space:nowrap;isolation:isolate}
 .hl::before{content:"";position:absolute;z-index:-1;left:-.14em;right:-.14em;top:.02em;bottom:.02em;border-radius:2px;background:var(--hlc,var(--butter));clip-path:inset(0 0 0 0);transition:clip-path 260ms cubic-bezier(.3,.8,.2,1)}
