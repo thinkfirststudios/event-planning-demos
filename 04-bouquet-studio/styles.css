@@ -106,7 +106,8 @@ ul,ol{list-style:none}
 .hero-in{display:grid;gap:28px;padding-top:32px}
 .hero-txt{padding-inline:var(--pad)}
 .hero-txt .disp{font-size:58px}
-.hero-txt .ital{font-size:24px}
+.hero-txt .ital{font-size:max(16px,min(30px,calc((100vw - 48px)/19.8)))}
+@media(min-width:360px){.hero-txt .ital{white-space:nowrap}}
 .hero-txt .voice{font-size:22px}
 .hero-txt .btn{font-size:24px;min-height:56px}
 .hero-txt .voice{margin-top:16px}
@@ -118,7 +119,7 @@ ul,ol{list-style:none}
   .hero-in{grid-template-columns:minmax(0,1fr) 46vw;align-items:center;padding-top:0;gap:40px}
   .hero-txt{padding:32px 0 clamp(110px,16vh,180px) var(--pad);text-align:center}
   .hero-txt .disp{font-size:clamp(66px,7.6vw,132px)}
-  .hero-txt .ital{font-size:clamp(28px,2.7vw,44px)}
+  .hero-txt .ital{font-size:clamp(20px,calc((54vw - 96px)/19.8),46px)}
   .hero-txt .voice{font-size:clamp(23px,1.9vw,30px);margin-inline:auto;max-width:30em}
   .hero-txt .btns{justify-content:center;margin-top:32px}
   .hero-txt .btn{font-size:clamp(24px,2vw,30px);min-height:62px;padding:14px 30px 11px}
