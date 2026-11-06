@@ -6,7 +6,7 @@ Each slot exists as two widths (600 and 1200; hero and enquire 800 and 1600).
 
 | Slot | Source | Photographer | Subject | Ratio | Class |
 |---|---|---|---|---|---|
-| hero-stocks | https://www.pexels.com/photo/colorful-flowers-lying-on-table-8213605/ | Дарья Сергунина (Daria Sergunina) | Armful of cut stocks on a pale cloth | 4:5 | loose flowers |
+| hero-pour | https://www.pexels.com/photo/person-pouring-liquor-in-cocktail-glasses-1721939/ | Dmitry Zvolskiy | Champagne poured into a coupe tower; 4:5 crop removes the face and grapes, bottle stamp cloned out, greens graded to bronze | 4:5 | detail |
 | ev-big | https://www.pexels.com/photo/5038747/ | Leeloo The First | Long table down its length; own crop of a portrait frame | 3:2 | whole room |
 | ev-small | https://www.pexels.com/photo/close-up-of-purple-hydrangea-flower-16449883/ | Ludmila Padnevici | Lilac hydrangea head, close | 1:1 | close detail |
 | ev-weekend | https://www.pexels.com/photo/close-up-of-blue-hydrangea-in-a-small-glass-17755646/ | Alina Skazka | Powder-blue flowers in a small glass | 4:5 | loose flowers |

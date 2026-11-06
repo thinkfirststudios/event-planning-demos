@@ -99,6 +99,7 @@ ul,ol{list-style:none}
 .hero-in{display:grid;gap:28px;padding-top:32px}
 .hero-txt{padding-inline:var(--pad)}
 .hero-txt .voice{margin-top:16px}
+.disp .ln{display:block}
 .hero-txt .mk{margin-left:6px}
 .hero-img{margin-left:var(--pad)}
 .hero-img .credit{padding-left:10px}
